@@ -11,15 +11,10 @@ public class SnakeBodyPart {
         width = dotSize;
         height = dotSize;
     }
-    public void tick() {
-
-    }
 
     public void draw(Graphics g) {
         g.setColor(Color.BLACK);
         g.fillRect(snakeBody_x * width, snakeBody_y * height, width, height);
-        //g.setColor(Color.GREEN);
-        //g.fillRect(xCoor * width + 2, yCoor * height + 2, width -4, height-4);
     }
 
     public int getSnakeBody_x() {

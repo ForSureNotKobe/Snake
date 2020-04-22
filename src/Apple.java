@@ -11,9 +11,6 @@ public class Apple {
         width = dotSize;
         height = dotSize;
     }
-    public void tick() {
-
-    }
     public void draw(Graphics g) {
         g.setColor(Color.RED);
         g.fillRect(apple_x * width , apple_y * height, width, height);
